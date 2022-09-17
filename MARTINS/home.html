@@ -1,0 +1,499 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Martinsfarm.com</title>
+    <link rel="stylesheet" href="Style-Home.css">
+    <link rel="stylesheet" href="login form.css">
+    <link rel="stylesheet" href="Rest-form1.css">
+    <link rel="stylesheet" href="Rest-form2.css">
+    <link rel="stylesheet" href="sign up.css">
+
+</head>
+
+<body>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <!-- ----------------------Preloader Start------------------ -->
+    <style>
+        .hero-body {
+            color: black;
+            border: 1px solid black;
+            /* background-color: blue; */
+            height: 100vw;
+            padding: 0;
+            background-image: url(./assets/images/bg\ pattern.png);
+        }
+        
+        .hero-body,
+        #hero-title {
+            margin-bottom: -6%;
+        }
+        /* ----------------------AVAILLABLE products START------------------- */
+        
+        .main-flex {
+            margin-top: 26%;
+            padding: 0px 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .display-flex {
+            margin-bottom: 40px;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        
+        .display-flex-title {
+            position: absolute;
+            left: 40%;
+            bottom: -62%;
+        }
+        
+        .flex {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            background-color: gray;
+            color: white;
+        }
+        /* --------------------------AVAILABLE FOOD STUFFS END ---------------------------*/
+        /* TESTIMONIALS START */
+        
+        * {
+            margin: 0%;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        
+        .testimonials {
+            padding: 40px 0;
+            background: #f1f1f1;
+            color: #434343;
+            text-align: center;
+        }
+        
+        .inner {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        
+        .border {
+            width: 160px;
+            height: 5px;
+            background: #6ab04c;
+            margin: 26px auto;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .col {
+            flex: 33.33%;
+            max-width: 33.33%;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+        
+        .testimonial {
+            background: #fff;
+            padding: 30px;
+        }
+        
+        .testimonial img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        
+        .name {
+            font-family: 20px;
+            text-transform: uppercase;
+            margin: 20px 0;
+        }
+        
+        .stars {
+            color: #6ab04c;
+            margin-bottom: 20px;
+        }
+        
+        @media screen and (max-width:960px) {
+            .col {
+                flex: 100px;
+                max-width: 80px;
+            }
+        }
+        
+        @media screen and (max-width:600px) {
+            .col {
+                flex: 100px;
+                max-width: 100px;
+            }
+        }
+        /* TESTIMONIALS END */
+
+
+
+        /*----------------------- footer start ---------------*/
+        
+        .content {
+            height: 70vh;
+        }
+        
+        footer {
+            background-color: #141414;
+            color: white;
+            width: 100vw;
+            margin: auto;
+        }
+        
+        .newsletter {
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+        }
+        
+        input {
+            padding: 8px 10px;
+            background-color: white;
+            border: 1px solid black;
+            width: 50%;
+        }
+        
+        .btn {
+            background-color: red;
+        }
+        
+        .admin {
+            background-color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 1px solid black;
+            background-color: green;
+        }
+        
+        .admin:hover {
+            background-color: greenyellow;
+        }
+        
+        .admin,
+        a {
+            color: white;
+        }
+        /*----------------------- footer start ---------------*/
+    </style>
+   
+
+   
+       
+
+    <header class="">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="home.html">
+                    <h1 class="logo">MARTINS FARM</h1>
+                    <img src="image/555.jpg"style="width: 150px"><br><br>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+                </button>
+           </div>
+                 
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                </li>
+                
+
+                <li class="login-signin-button" class="d-flex" id="home-login-btn">
+                    <a href="login form.html"><button>Login or Create Account</button></a>
+                </li>
+            </ul>
+        </nav>
+
+               
+    </header>
+
+    <!-- Page Content -->
+
+    <!------------------- ------------------Banner Starts Here----------------------------- -->
+    <div class="banner header-text">
+        <div class="owl-banner owl-carousel">
+            <div class="banner-item-01">
+                <div class="text-content">
+                    <h2>MARTIN'S FARM </h2>
+                    <h4>Browse premium vegetables and fruits on iStock | 20% off!</h4>
+                </div>
+            </div>
+            <div class="banner-item-02">
+                <div class="text-content">
+
+                </div>
+            </div>
+            <div class="banner-item-03">
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------- Banner Ends Here ------------------------>
+
+
+    <div class="hero-body">
+        <h1 class="text-center" id="hero-title">VIEW OUR FARM PRODUCTS</h1>
+
+
+        <!----------------------------------- Round 360 carousel Start Here -------------------------------------------------------->
+
+        <div id="Round-360 ">
+            <div class="container1 padding-top">
+                <div class="carousel">
+                    <div class="carousel__face"><span></span>
+                        <img src="image/010.jpg" style=width:300px; alt="" class="w-100"></div>
+                    <div class="carousel__face"><span></span>
+                        <img src="image/118.jpg" style=width:300px; alt="" class="w-100"></div>
+                    <div class="carousel__face"><span></span>
+                        <img src="image/344.jpg" style=width:300px; alt="" class="w-100"></div>
+                    <div class="carousel__face"><span></span>
+                        <img src="image/833.jpg" style=width:300px; alt="" class="w-100"></div>
+                    <div class="carousel__face"><span></span>
+                        <img src="image/722.jpg" style=width:300px; alt="" class="w-100"></div>
+                    <div class="carousel__face"><span></span>
+                        <img src="image/411.jpg" alt="" class="w-100"></div>
+                    <div class="carousel__face"><span></span>
+                        <img src="image/422.jpg" style=width:300px; alt="" class="w-100"></div>
+                    <div class="carousel__face"><span></span>
+                        <img src="image/777.jpg" style=width:300px; alt="" class="w-100"></div>
+                    <div class="carousel__face"><span></span>
+                        <img src="image/922.jpg" style=width:300px; alt="" class="w-100"></div>
+                        
+                </div>
+            </div>
+        </div>
+        <!----------------------------------- Round 360 carousel Start Here -------------------------------------------------------->
+        <hr>
+
+       <!---- <div class="display-flex-title">
+            <h1>AVAILABLE VEGETABLES AND FRIUTS</h1>
+        </div>-->
+        <div class="main-flex">
+            <div class="display-flex">
+                <div class="flex">
+                    <img src="image/1.jpg"style="width: 300px"><br><br>
+                    <div>
+                        Carrots are full of phytochemicals such as beta-carotene that your body converts to vitamin A, which helps with vision — especially at night. <br>2022– Available @$11
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <img src="image/2.jpg"style="width: 315px"><br><br>
+                    <div>
+                        Eggplants contain fiber and are low in calories — they can contribute to a healthful, low-calorie diet.
+                        However, eggplant can absorb a lot of oil during frying. Anyone looking to lose weight should prepare it a different way, such as by grilling or air-frying it.<br> 2022– Available @$10
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <img src="image/3.jpg"style="width: 350px"><br><br>
+                    <div>
+                       Mashroom are technically fungi, but they can help with cognition, heart health, and disease prevention. Rich in B vitamins, swap 'em in as a replacement for meat, or enjoy them grilled, sauteed or steamed <br> 2022– Available @$15
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <img src="image/15.jpg"style="width: 350px"><br><br>
+                    <div>
+                    Onions are a nutrient-dense food, meaning that they are high in vitamins, minerals, and antioxidants while being low in calories.As a good source of vitamin C, onions may support the building and maintenance of collagen. <br> 2022– Available @$21
+                    </div>
+                </div>
+            </div>
+            <div class="display-flex">
+
+                <div class="flex">
+                    <img src="image/5.jpg"style="width: 300px"><br><br>
+                    <div>
+                        Sweet potatoes are one of the best sources of beta-carotene, which is an antioxidant that converts into vitamin A. This complex carbohydrate may seem too good to be true, but a baked orange spud loaded with black beans, feta, herbs, and roasted peppers is one of the easiest and nutrient-dense dinners you can have.<br> 2022 – Available @$32
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <img src="image/6.jpg"style="width: 300px"><br><br>
+                    <div>
+                    Green beans are a good source of vitamin A, vitamin C, vitamin K, fiber and they get their bright green color from the antioxidant chlorophyll. <br> 2022–Available@$16
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <img src="image/7.jpg"style="width: 300px"><br><br>
+                    <div>
+                        Cauliflower is an easy way to sneak in extra vitamin C (one cup contains almost 100% of your daily recommended amount!), vitamin K, potassium, vitamin B6, folate and plant-based omega-3’s to your meal.<br> 2022– Available @$14
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <img src="image/8.jpg"style="width: 300px"><br><br>
+                    <div>
+                        Tomatoes contain lycopene, which give the salad staple its rosy red color. Research has shown that lycopene supports vascular health and helps prevent cardiovascular disease. <br> 2022-Available @$13
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="display-flex">
+
+                <div class="flex">
+                    <img src="image/9.jpg"style="width: 300px"><br><br>
+                    <div>
+                        Asparagus is Rich in antioxidants, asparagus is a natural diuretic and as a prebiotic it feeds healthy gut bacteria. Whether you enjoy asparagus roasted or sauteed, grab a bunch the next time you're at the grocery store. The stalks contain only a few calories but lots of fiber and micronutrients such as folate, vitamin C, vitamin A, and vitamin K. <br> 2022-Available @$17
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <img src="image/10.jpg"style="width: 300px"><br><br>
+                    <div>
+                        This leafy green Spinach is one of the most versatile vegetables, eat it raw tossed in a salad, sautéd, steamed or throw it in a smoothie as a neutral way to boost your green intake. One cup contains your entire daily requirement of Vitamin K and it has tons of vitamin A (over half of the recommended daily amount in a serving!), and vitamin C which helps boost and enhance your immune system<br> 2022-Available @$19
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <img src="image/11.jpg"style="width: 300px"><br><br>
+                    <div>
+                        Turnips:This root vegetable is part of the cruciferous family (related to kale, broccoli and Brussels sprouts), is low in calories and rich in fiber and micronutrients including calcium, phosphorus, and potassium. <br> 2022-Available @$47
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <img src="image/12.jpg"style="width: 300px"><br><br>
+                    <div>
+                    Your favorite leafy green Kale is positively chock-full of vitamin K — just ½ cup provides about 440% of the recommended daily value! Another fun fact: A serving of kale also supplies 10% of your daily value for calcium — good to know if you’re lactose intolerant. <br> 2022-Available @$23
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+
+        <!-------------------------------Testimonials START ----------------------------->
+
+        <div class="testimonials">
+            <div class="inner">
+                <h1>Testimonials</h1>
+                <div class="border"></div>
+                <div class="row">
+                    <div class="col">
+                        <div class="testimonial">
+                          <img src="image/123.jpg" alt="">
+                            <div class="name">Barbra Bonsoe</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>Super helpful, was my first time buying online farmproducts. Location of Mfarm was extremely convenient (Accra Homecoing Festival , and Yas Mall). Process was clear, and the vegetables was in excellent condition.(although I wish it didn't cost so much for that convenience: 250+ AED)</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="testimonial">
+                            <img src="image/444.jpg" alt="">
+                            <div class="name">Sandra Bentum</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p>I am a regular customer in Dubai and have just recently returned to Mfarm after the lockdown. I usually buy from Deira City Center, at times Dubai Mall and Festival City. I would like to point out that your employees have
+                                always been very gracious and professional and they are one of the main reasons why I keep coming back to buy from Mfarm.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="testimonial">
+                            <img src="image/333.jpg" alt="">
+                            <div class="name">Angelina Quatey</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="fal fa-star"></i>
+                            </div>
+                            <p>Just want to thank you for the support and friendly hospitality when collecting and dropping of the food items. It been a pleasure and will always support you were possible its been a great year with you thanks again and stay safe
+                                Mfarm rep was extremely friendly, punctual, and helpful.They have hired Passat excellent , comfortable and clean</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------Testimonials END--------------------------->
+
+        <!-------------------- footern Start------------------ -->
+
+        <footer>
+            <div class="newsletter">
+                <h1>Subscribe</h1>
+
+                <p>Enter your email to receive relevant information</p>
+
+                <div>
+                    <input type="text" placeholder="E-mail">
+                    <button class="btn"><a href="#">Subscrribe</a> </button>
+                </div>
+
+
+                <div>
+
+                    <button class="admin"><a href="./admin/Admin Login.html">Admin login</a></button>
+
+                </div>
+
+        </footer>
+        <!-------------------- footer end------------------ -->
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
